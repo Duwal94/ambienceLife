@@ -9,6 +9,7 @@ import {
 } from "@material-tailwind/react";
 
 function EcommerceCard({ img, name }) { // Use curly braces to destructure props
+ 
   return (
     <Card className="w-96 bg-custom3">
       <CardBody shadow={false} floated={false} className="h-96">

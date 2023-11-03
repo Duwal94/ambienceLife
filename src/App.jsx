@@ -7,10 +7,10 @@ import FooterWithLogo from './layout/footer'
 function App() {
   
   return (
-<>
+<div className='bg-custom2'>
     
-<div className="bg-custom2 pb-4">
-  <div className="p-2 inset-x-0 top-10 z-10">
+<div className="bg-custom2 pb-1">
+  <div className="p-2 inset-x-0  z-10">
     <NavbarSimple/>   
   </div>
   <div className='flex justify-center items-center pt-5 '>
@@ -30,7 +30,7 @@ function App() {
     <FooterWithLogo/>
 </div>
    
-</>
+</div>
 
   );
 }

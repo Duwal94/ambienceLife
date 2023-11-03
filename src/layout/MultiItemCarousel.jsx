@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChevronLeft, faChevronRight ,} from '@fortawesome/free-solid-svg-icons';
 
 const items = [
-  { id: 1, title: 'Bedding' , img:"src/assets/beding.jpg"},
-  { id: 2, title: 'Rugs' ,img:"src/assets/Rugs.jpg"},
-  { id: 3, title: 'Ready Made Curtains',img:"src/assets/curtains.jpg"},
-  { id: 4, title: 'Cushion Covers' ,img:"src/assets/cushins.jpg"},
-  { id: 5, title: 'Decor Accessories',img:"src/assets/bg3.jpg"},
+  { id: 1, title: 'Bedding' , img:"/beding.jpg"},
+  { id: 2, title: 'Rugs' ,img:"/Rugs.jpg"},
+  { id: 3, title: 'Ready Made Curtains',img:"/curtains.jpg"},
+  { id: 4, title: 'Cushion Covers' ,img:"/cushins.jpg"},
+  { id: 5, title: 'Decor Accessories',img:"/bg3.jpg"},
 
 ];
 
