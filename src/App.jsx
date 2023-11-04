@@ -22,7 +22,7 @@ function App() {
   </div> 
 </div>
 <div className="bg-custom5 min-h-screen py-8">
-  <div className="container mx-auto">
+  <div className="container mx-auto overflow-x-auto">
     <MultipleItemCarousel />
   </div>
 </div>
