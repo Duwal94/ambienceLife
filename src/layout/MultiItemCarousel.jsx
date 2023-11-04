@@ -25,7 +25,7 @@ const MultipleItemCarousel = () => {
 
   return (
     <>
-    <h2 className="relative text-3xl font-semibold mb-4 text-center">SHOP CATEGORIES</h2>
+   
     <div class="absolute w-[9%] left-0 opacity-60 h-full bg-custom5 z-10"></div>
     <div class="absolute w-[10%] right-0 opacity-60 h-full bg-custom5 z-10"></div>
     <div className="flex items-center justify-between h-screen relative">   

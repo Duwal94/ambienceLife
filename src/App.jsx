@@ -10,13 +10,13 @@ function App() {
 <div className='bg-custom2'>
     
 <div className="bg-custom2 pb-1">
-  <div className="p-2 inset-x-0  z-10">
+  <div className=" ml-[13%]  z-10">
     <NavbarSimple/>   
   </div>
-  <div className='flex justify-center items-center pt-5 '>
+  <div className='flex justify-center items-center pt-12 '>
     <CustomCarousel/>
-    <div className="font-bold  w-[70%] text-white text-3xl p-8 ">
-				<p className='text-center'>Everyday Luxe range featuring premium bed linen for everyday use.</p>
+    <div className=" w-[70%] text-white text-6xl p-8 ">
+				<p className='text-center font-custom '>Everyday Luxe range featuring premium bed linen for everyday use.</p>
 				
 	    	</div>
   </div> 

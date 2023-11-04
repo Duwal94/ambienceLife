@@ -70,7 +70,7 @@ export default function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-8 py-3 mt-2 bg-custom1 border-0">  
+    <Navbar className=" fixed   z-40 mx-auto max-w-screen-xl px-8 py-3  bg-custom1 border-0">  
       <div className="flex items-center  justify-between text-white ">    
       <div className="flex flex-row">
       <img src={bck3} className="h-12 mr-5 rounded-md" alt="Logo" />
