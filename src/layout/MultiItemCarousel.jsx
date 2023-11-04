@@ -26,8 +26,8 @@ const MultipleItemCarousel = () => {
   return (
     <>
    
-    <div class="absolute w-[9%] left-0 opacity-60 h-full bg-custom5 z-10"></div>
-    <div class="absolute w-[10%] right-0 opacity-60 h-full bg-custom5 z-10"></div>
+    <div class="absolute w-[9%] left-0  h-full bg-custom5 z-10"></div>
+    <div class="absolute w-[10%] right-0  h-full bg-custom5 z-10"></div>
     <div className="flex items-center justify-between h-screen relative">   
    
    
