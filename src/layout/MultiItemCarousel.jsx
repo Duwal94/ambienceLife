@@ -48,7 +48,7 @@ const MultipleItemCarousel = () => {
     <div className="flex space-x-4  ">
     
   <div
-    className="flex transition-transform ease-in-out duration-200 z-0"
+    className="flex transition-transform  duration-300 z-0"
     style={{ transform: `translateX(-${startIndex * (100 / 40)}%)` }}
   >
     {[...items.slice(startIndex), ...items.slice(0, startIndex)].map((item, index) => (

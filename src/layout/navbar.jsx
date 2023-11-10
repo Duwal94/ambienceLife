@@ -18,7 +18,17 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-black transition-colors">
-          Pages
+          Bedding
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="white"
+        className="p-1 font-medium"
+      >
+        <a href="/Wallpaper" className="flex items-center hover:text-black transition-colors">
+          Wallpaper
         </a>
       </Typography>
       <Typography
@@ -28,7 +38,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-black transition-colors">
-          Account
+         Curtains
         </a>
       </Typography>
       <Typography
@@ -38,17 +48,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-black transition-colors">
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="white"
-        className="p-1 font-medium"
-      >
-        <a href="#" className="flex items-center hover:text-black transition-colors">
-          Docs
+        Cushion Covers
         </a>
       </Typography>
     </ul>
@@ -70,13 +70,13 @@ export default function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className=" fixed   z-40 mx-auto max-w-screen-xl px-8 py-3  bg-custom1 border-0">  
+    <Navbar className="z-40 bg-custom1 sticky top-0  h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 border-0">  
       <div className="flex items-center  justify-between text-white ">    
       <div className="flex flex-row">
       <img src={bck3} className="h-12 mr-5 rounded-md" alt="Logo" />
         <Typography
           as="a"
-          href="#"
+          href="/"
           variant="h6"
           className="mr-4 cursor-pointer py-2.5  "
           >         
