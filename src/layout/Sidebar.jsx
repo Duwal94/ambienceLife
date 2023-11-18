@@ -29,7 +29,7 @@ export function SidebarWithLogo() {
   };
  
   return (
-    <Card className="sticky top-[15%] bg-custom5 m-8 mx-4 h-[calc(100vh-12rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
+    <Card className="sticky top-[12%] bg-custom5 m-8 mx-4 h-[calc(100vh-12rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
       <div className="mb-2 flex items-center gap-4 p-4">
      
         <Typography variant="h5" color="black">
