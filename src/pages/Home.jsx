@@ -1,7 +1,7 @@
 import React from 'react';
 
 import CustomCarousel from '../layout/carousel';
-import MultipleItemCarousel from '../layout/MultiItemCarousel';
+import Multi from '../layout/multicarosel2';
 
 
 const Home = () => {
@@ -13,9 +13,10 @@ const Home = () => {
               <p className='text-center lg:font-custom '>Everyday Luxe range featuring premium bed linen for everyday use.</p>
             </div>
           </div>
-     <div className="bg-custom5 min-h-screen py-8">
-          <div className="container mx-auto overflow-x-auto">
-            <MultipleItemCarousel />
+     <div className="bg-custom5  py-8">
+     <p className='text-center lg:text-5xl text-3xl p-5 font-bold  '>SHOP CATEGORIES</p>
+          <div className="container mx-auto overflow-x-auto">            
+            <Multi />
           </div>
         </div>
     </div>
