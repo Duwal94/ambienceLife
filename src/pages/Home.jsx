@@ -14,10 +14,9 @@ const Home = () => {
             </div>
           </div>
      <div className="bg-custom5  py-8">
-     <p className='text-center lg:text-5xl text-3xl p-5 font-bold  '>SHOP CATEGORIES</p>
-          <div className="container mx-auto overflow-x-auto">            
+     <p className='text-center lg:text-5xl text-3xl p-5 font-bold  '>SHOP CATEGORIES</p>                    
             <Multi />
-          </div>
+         
         </div>
     </div>
   );

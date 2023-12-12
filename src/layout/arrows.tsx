@@ -51,7 +51,7 @@ export function LeftArrow() {
 
     return (
         <Arrow disabled={disabled} onClick={() => scrollPrev()}>
-            <FontAwesomeIcon icon={faChevronLeft} size={"3x"} />
+            <FontAwesomeIcon icon={faChevronLeft} size={"2x"} />
         </Arrow>
     );
 }
@@ -75,7 +75,7 @@ export function RightArrow() {
 
     return (
         <Arrow disabled={disabled} onClick={() => scrollNext()}>
-            <FontAwesomeIcon icon={faChevronRight} size={"3x"} />
+            <FontAwesomeIcon icon={faChevronRight} size={"2x"} />
         </Arrow>
     );
 }
