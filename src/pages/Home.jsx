@@ -7,9 +7,9 @@ import MultipleItemCarousel from '../layout/MultiItemCarousel';
 const Home = () => {
   return (
     <div className="bg-custom3">
-    <div className='flex justify-center items-center pt-12 '>
+    <div className='flex justify-center items-center lg:pt-12 '>
             <CustomCarousel/>
-            <div className="w-[70%] text-white text-6xl p-8">
+            <div className="lg:w-[70%]  lg:text-6xl lg:p-8 hidden lg:block ">
               <p className='text-center font-custom '>Everyday Luxe range featuring premium bed linen for everyday use.</p>
             </div>
           </div>
