@@ -6,7 +6,7 @@ import bck from '../assets/bg.jpg';
 function CustomCarousel() {
   return (
     <Carousel
-      className="w-[90%] rounded-xl m-10"
+      className="lg:w-[90%] lg:rounded-xl   lg:m-12"
       autoplay={true}
       autoplayDelay={8000}
       loop={true}
@@ -35,7 +35,7 @@ function CustomCarousel() {
       )}
     >
       <div>
-        <div className="h-[600px]">
+        <div className="h-[550px] lg:h-[600px]">
           <img
             src={bck}
             alt="image 1"
@@ -44,16 +44,18 @@ function CustomCarousel() {
         </div>
       </div>
       <div>
-        <div className="h-[600px]">
+        <div className="h-[550px] lg:h-[600px]">
           <img src={bck2} alt="image 2" className=" h-full object-cover" />
         </div>
       </div>
       <div>
-        <div className="h-[600px]">
+        <div className="h-[550px] lg:h-[600px]">
           <img src={bck3} alt="image 3" className="h-full object-cover" />
         </div>
       </div>
     </Carousel>
+    
+    
   );
 }
 
