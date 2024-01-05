@@ -29,7 +29,7 @@ function Multi() {
     { id: 2, title: 'Rugs', img: "/Rugs.jpg" },
     { id: 3, title: 'Ready Made Curtains', img: "/curtains.jpg" },
     { id: 4, title: 'Cushion Covers', img: "/cushins.jpg" },
-    { id: 5, title: 'Decor Accessories', img: "/bg3.jpg" },
+    { id: 5, title: 'Decor Accessories', img: "/accessories.jpg" },
 
   ];
   return (

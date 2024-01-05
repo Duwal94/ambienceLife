@@ -12,16 +12,13 @@ function EcommerceCard({ img, name }) { // Use curly braces to destructure props
  
   return (
     <Card className="w-96 bg-custom3">
-      <CardBody shadow={false} floated={false} className="h-96">
+      <CardBody shadow={true} floated={false} className="h-96 p-0">
         
-          <Typography  className="font-bold text-xl  text-center m-2 bg-custom3 text-black/90">
-            {name} 
-          </Typography>
         
         <img
           src={img}
           alt="card-image"
-          className="h-full w-full object-cover rounded-md"
+          className="  h-100 w-full  object-fill rounded-md"
         />
       </CardBody>
       <CardBody>
