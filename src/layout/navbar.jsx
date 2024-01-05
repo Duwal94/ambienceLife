@@ -10,14 +10,14 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
  
 function NavList() {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
       <Typography
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-medium"
+        className="p-1 font-medium font-custom1"
       >
-        <a href="#" className="flex items-center hover:text-black transition-colors">
+        <a href="#" className="flex items-center  hover:text-black transition-colors">
           Bedding
         </a>
       </Typography>
@@ -25,7 +25,7 @@ function NavList() {
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-medium"
+        className="p-1 font-medium font-custom1"
       >
         <a href="/Wallpaper" className="flex items-center hover:text-black transition-colors">
           Wallpaper
@@ -35,7 +35,7 @@ function NavList() {
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-medium"
+        className="p-1 font-medium font-custom1"
       >
         <a href="#" className="flex items-center hover:text-black transition-colors">
          Curtains
@@ -45,7 +45,7 @@ function NavList() {
         as="li"
         variant="small"
         color="white"
-        className="p-1 font-medium"
+        className="p-1 font-medium font-custom1"
       >
         <a href="#" className="flex items-center hover:text-black transition-colors">
         Cushion Covers
@@ -78,7 +78,7 @@ export default function NavbarSimple() {
           as="a"
           href="/"
           variant="h6"
-          className="mr-4 cursor-pointer py-2.5  "
+          className="mr-4 cursor-pointer py-2.5 font-custom1 "
           >         
           Ambience LifeStyle
         </Typography>

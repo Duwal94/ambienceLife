@@ -29,7 +29,7 @@ function EcommerceCard({ img, name }) { // Use curly braces to destructure props
         <Button
           ripple={false}
           fullWidth={true}
-          className="bg-custom1 text-white/75 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
+          className="bg-custom1 font-custom1 text-white/75 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
         >
           SHOP {name}
         </Button>

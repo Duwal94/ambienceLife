@@ -8,7 +8,8 @@ module.exports = withMT({
   theme: {
     extend: {
       fontFamily: {
-        custom: ['Luxurious Roman', 'serif'], // Use your chosen Google Fonts and fallback font
+        custom: ['Josefin Sans', 'sans-serif'], // Use your chosen Google Fonts and fallback font
+        custom1: ['Open Sans', 'sans-serif'], // Use your chosen Google Fonts and fallback font
       },
       backgroundColor: {
         'custom1': '#28221E',
